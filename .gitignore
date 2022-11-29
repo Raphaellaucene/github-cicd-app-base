@@ -2,4 +2,8 @@
 app/node_modules
 *.DS_Store
 *tgz
+<<<<<<< HEAD
 junit.xml
+=======
+junit.xml
+>>>>>>> f7429e1 (Initial commit)
