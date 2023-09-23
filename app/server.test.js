@@ -26,7 +26,7 @@ test('main index.html file exists', () => {
 });
 
 test('main xxx.html file exists', () => {
-  const filePath = path.join(__dirname, "index.html")
+  const filePath = path.join(__dirname, "xxx.html")
   expect(fs.existsSync(filePath)).toBeTruthy();
 });
 
