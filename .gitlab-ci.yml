@@ -1,11 +1,11 @@
 stages:
-  - test
+  - docker
 
 realizar_testes:
-  stage: test
+  stage: docker
   image: node:20.7.0-alpine3.17
   before_script:
     - cd app/
     - npm install
   script:
-    - npm test
+    - npm docker
