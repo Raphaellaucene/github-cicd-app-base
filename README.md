@@ -35,7 +35,7 @@ Google Cloud Platform: Integração com o GCP para criar e gerenciar o cluster K
     ```sh
     git clone <URL do repositório>
     cd <nome do repositório>
-    git checkout docker-deploy
+    git checkout docker
     ```
 
 2. Construa a imagem Docker:
@@ -54,7 +54,7 @@ Google Cloud Platform: Integração com o GCP para criar e gerenciar o cluster K
     ```sh
     git clone <URL do repositório>
     cd <nome do repositório>
-    git checkout kubernetes-deploy
+    git checkout kubernetes
     ```
 
 2. Configure seu ambiente GCP e crie um cluster Kubernetes:
