@@ -24,7 +24,6 @@ jobs:
 
     - name: Generate JUnit report
       run: |
-        # Supondo que o relatório JUnit seja gerado no diretório 'app/reports'
         mkdir -p reports
         cp -r app/reports/junit.xml .
 
